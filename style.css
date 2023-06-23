@@ -1,13 +1,13 @@
 #container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    width: 560px;
-    height: 560px;
-    border: 3px solid black;
+     display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: white;
     
     }
     #container > div {
-        width: 30px;
-        height: 30px;
+        height: 75px;
         border: 1px solid gray;
         }
+
